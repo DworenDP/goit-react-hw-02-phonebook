@@ -15,8 +15,8 @@ export class App extends Component {
       { id: 'id-4', name: 'Annie Copeland', number: '227-91-26' },
     ],
     filter: '',
-    name: '',
-    number: '',
+    // name: '',
+    // number: '',
   };
 
   handleChange = e => {
@@ -95,7 +95,7 @@ export class App extends Component {
           contacts={this.getFilterContacts()}
           handleDelete={this.handleDelete}
         />
-        
+
         <ToastContainer
           position="top-right"
           autoClose={3000}
